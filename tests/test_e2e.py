@@ -19,4 +19,5 @@ class TestOne(BaseClass):
         self.driver.find_element(By.XPATH, "//input[@id='password']").send_keys("secret_sauce")
 
         # Click the login button
+        #This is for testing purposes
         self.driver.find_element(By.XPATH, "//input[@id='login-button']").click()
